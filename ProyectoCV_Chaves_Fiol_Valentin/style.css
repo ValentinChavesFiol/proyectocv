@@ -1,0 +1,86 @@
+body {
+    background-color: #F7F4F4;
+    margin: 15px 10px 100px 10px;
+    background: linear-gradient(#e5922a 15%, #cda61aba, #f76e09bd) ;
+}
+header {
+   
+}
+h1 {
+    text-align: center;
+    text-decoration: underline;
+    text-decoration-style: double;
+    font-family: 'Libre Baskerville', serif;
+}           
+#foto {
+    float: right;
+    margin-right: 150px;
+    width: 10%;
+    border-style: solid;
+    border-color: #cd6e1c;
+    border-width: 5px;
+    border-radius: 5px;
+}
+.datosPersonales{
+    margin-top: 30px;
+    padding-left: 20px;
+    font-family: 'Libre Baskerville', serif;
+    font-style: italic;
+}
+.redes { 
+    margin-left: 45%;
+}
+#facebook{
+    color:  #3b5998;
+    padding-right: 3px;
+}
+#facebook:hover{
+    transform: scale(1.5);
+}
+#instagram {
+    background: #f09433; 
+    background: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%); 
+    background: -webkit-linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+    background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', endColorstr='#bc1888',GradientType=1 );
+}
+#instagram:hover {
+    transform: scale(1.5);
+}
+#pinterest {
+    color: #E60023;
+    padding-right: 3px;
+    padding-left: 3px;
+}
+#pinterest:hover {
+    transform: scale(1.5);
+}
+#linkedin {
+    color: #0E76A8;
+}
+#linkedin:hover {
+    transform: scale(1.5);
+}
+#tituloFormacion, #tituloAspiraciones{
+    margin-top: 50px;
+    text-align: center;
+    background-color: #cd6e1c94;
+    font-family: 'Libre Baskerville', serif;
+}
+.formacion {
+    background-color: #cd6e1c94;
+    border-radius: 20px 0;
+    padding: 20px;
+    font-style: italic;
+    font-size: 20px;
+}
+.formacion ul{
+    position: relative;
+    left: 200px;
+}
+.aspiraciones {
+    padding: 20px;
+    font-family: 'Libre Baskerville', serif;
+    font-style: italic;
+}
+
