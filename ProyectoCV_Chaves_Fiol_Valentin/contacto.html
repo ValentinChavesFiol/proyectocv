@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+<body>
+    <form>
+        <label for="nombreApellido">Nombre y Apellido</label>
+        <input type="text" id="nombreApellido" class="input-padron" required="">
+
+        <label for="empresaInstitucion">Empresa o Institución</label>
+        <input type="text" id="empresaInstitucion" class="input-padron" required="">
+
+        <label for="correoElectronico">Correo Electronico</label>
+        <input type="email" id="correoElectronico" class="input-padron" required="" placeholder="email@dominio.com">
+
+        <label for="telefono">Teléfono</label>
+        <input type="tel" id="telefono" class="input-padron" required="" placeholder="(XX) XXXX XXXX">
+
+        <label for="mensaje">Mensaje</label>
+        <textarea cols="70" rows="10" id="mensaje" required=""></textarea>
+
+        <fieldset>
+            <legend>¿Cual medio de contacto prefiere?</legend>
+            <label for="radio-email"><input type="radio" name="contacto" value="email" id="radio-email">Email</label>
+            <label for="radio-telefono"><input type="radio" name="contacto" value="telefono" id="radio-telefono">Telefono</label>
+            <label for="radio-whatsapp"><input type="radio" name="contacto" value="whatsapp" id="radio-whatsapp" checked="">Whatsapp</label>
+        </fieldset>
+
+        <fieldset>
+            <legend>¿En que momento del día le gustaría ser contactado?</legend>
+            <select>
+                <option>Mañana</option>
+                <option>Tarde</option>
+                <option>Noche</option>
+            </select>
+        </fieldset>
+        <input type="submit" value="Enviar formulario" class="enviar">
+    </form>
+
+    <a href="index.html">Volver a la página principal</a>
+</body>
+</html>
